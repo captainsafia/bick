@@ -1,0 +1,26 @@
+{
+  "name": "bick",
+  "version": "0.0.1",
+  "description": "Augmented console.log",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captainsafia/bick.git"
+  },
+  "keywords": [
+    "console.log",
+    "utilities"
+  ],
+  "author": "Safia Abdalla <safia@safia.rocks> (http://safia.rocks/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/captainsafia/bick/issues"
+  },
+  "homepage": "https://github.com/captainsafia/bick#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
