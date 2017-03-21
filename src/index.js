@@ -1,8 +1,6 @@
 const colors = require('colors');
 
-const isFunction = function(object) {
-  return !!(object && object.constructor && object.call && object.apply);
-};
+const isFunction = (a) => typeof a === 'function';
 
 const logNumber = function(number) {
   let parts = number.toString().split(".");
